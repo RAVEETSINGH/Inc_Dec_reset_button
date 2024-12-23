@@ -1,0 +1,67 @@
+body {
+    background-color: #b89a9a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10rem;
+}
+
+#container {
+    max-width: 100%; 
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; 
+}
+
+.but {
+    padding: 10px 20px;
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s; 
+}
+
+.but:hover {
+    background-color: rgb(199, 158, 237);
+}
+
+
+@media (max-width: 768px) {
+    #countLabel {
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+
+    .but {
+        font-size: 1.5rem; 
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #countLabel {
+        font-size: 2.5rem; 
+    }
+
+    .but {
+        font-size: 1.2rem;
+        padding: 6px 12px;
+    }
+
+    #container {
+        gap: 10px;
+    }
+}
