@@ -15,7 +15,7 @@ This is a simple, responsive counter web application that allows users to increm
 
 ## Live Demo
 Check out the live version of this application here:  
-[Live Demo](https://your-live-demo-link.com)
+[Live Demo]([https://your-live-demo-link.com](https://raveetsingh.github.io/Inc_Dec_reset_button/))
 
 ---
 ## Technologies Used
